@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ristorante Danny</title>
+    <link rel="icon" href="OIP.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/283335a286.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&family=Mulish:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header class="encabezado">
+        <div class="contenedor-navegacion">
+            <div class="contenido-navegacion contenedor">
+                <div class="logo">
+                    <h2>Ristorante <span class="verde">Da</span><span>ni</span><span class="rojo">ele</span></h2>
+                </div>
+                <nav class="navegacion ocultar">
+                    <a href="index.html">Inicio</a>
+                    <a href="menu.html">Menú</a>
+                    <a href="chef.html">Chef</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+                <div class="hamburguesa">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+        <div class="contenido-header">
+            <div class="contenedor-encabezado">
+                <div class="texto-encabezado">
+                    <h2>El verdadero sabor<h2>
+                        italiano en cada bocado</h2>
+                    <a href="Previa.html" class="btn bordes">Previas</a>
+                </div>
+                <video autoplay loop muted>
+                    <source src="/assets/bg_video.mp4">
+                </video>
+            </div>
+        </div>
+    </header>
+
+    <div class="contenedor-nosotros contenedor">
+        <div class="texto-nosotros">
+            <p class="bienvenida">Bienvenido a!</p>
+            <h1>Ristorante Daniele</h1>
+            <p>
+                En el corazón de nuestra cocina, encontrarás el sabor auténtico de Italia en cada plato. Desde las
+                delicadas pastas artesanales hasta las irresistibles pizzas horneadas a la perfección, cada bocado te
+                transportará a las pintorescas calles de Italia. Nuestro compromiso con la calidad y la tradición
+                italiana se refleja en cada detalle, desde los ingredientes frescos hasta las recetas transmitidas de
+                generación en generación. En nuestro ristorante, no solo encontrarás una comida excepcional, sino una
+                experiencia culinaria que celebra la pasión y el amor por la cocina italiana.
+            </p>
+            <a href="contacto.html" class="btn btn-rojo">Contactar</a>
+        </div>
+        <div class="imagenes-nosotros">
+            <div class="imagen1">
+                <img data-src="assets/img/nosotros1.jpg" alt="mujer comiendo pizza">
+            </div>
+            <div class="imagenes2">
+                <img data-src="assets/img/nosotros2.jpg" alt="mujeres comiendo pizza">
+                <img data-src="assets/img/nosotros3.jpg" alt="plato con pasta">
+            </div>
+        </div>
+    </div>
+
+
+    </section>
+
+    <div class="separador">
+        <div class="contenido-separador contenedor">
+            <h2>Comida italiana para empezar el día</h2>
+            <p>Empieza tu día comiedo deliciosa comida o un café italiano</p>
+            <a href="menu.html" class="btn btn-verde">Ordenar ahora</a>
+        </div>
+    </div>
+
+    <section class="chef contenedor">
+        <a href="chef.html" ><h2>Chef ejecutivo</h2></a>
+        <div class="contenido-chef">
+            <div class="texto-chef">
+                <h3>La exelencia está en la diversidad y el modo de progresar
+                    es conocer y comparar las diversidades de productos, culturas y
+                    técnicas
+                </h3>
+                <p>"Mi objetivo es preservar la diferencia: me gustaría ser el "chef antiglobalización". Estoy encantado
+                    de tener influencias, a favor de la mezcla, me encanta descubrir cocinas, pero no pienso que haya
+                    que crear un modelo único. El verdadero peligro es la unificación de la cocina y del pensamiento".
+                </p>
+            </div>
+            <div class="imagen-chef">
+                <img data-src="/assets/img/Cocinero.jpg" alt="fotografia del chef">
+            </div>
+        </div>
+    </section>
+    <p>________________________________________________________________________________________________________________________________________________________________________________</p>
+
+    <div class="formulario-contacto contenedor">
+
+        <div class="informacion-contacto">
+            <h3>Contactanos</h3>
+            <p><i class="fas fa-map-marker-alt"></i>24. Sol del tecal 507py</p>
+            <p><i class="fas fa-envelope"></i> dany29brin@gmail.com</p>
+            <p><i class="fas fa-phone-alt"></i>+507 6168-xxxx</p>
+            <div class="redes-sociales">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+
+        <form class="formulario">
+            <div class="input-formulario">
+                <label for="nombre">Nombre</label>
+                <input type="text" placeholder="Pedro" id="nombre">
+            </div>
+            <div class="input-formulario">
+                <label for="apellidos">Apellido</label>
+                <input type="text" placeholder="Pedro" id="apellidos">
+            </div>
+            <div class="input-formulario">
+                <label for="correo">Correo</label>
+                <input type="email" placeholder="ejemplo@ejemplo.com" id="correo">
+            </div>
+            <div class="input-formulario">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" placeholder="+90 543 779 9410" id="telefono">
+            </div>
+            <div class="input-formulario">
+                <label for="mensaje">Mensaje</label>
+                <textarea></textarea>
+            </div>
+            <div class="btn-formulario">
+                <input type="submit" class="btn btn-verde" value="Enviar">
+            </div>
+
+        </form>
+    </div>
+    <div class="pie-pagina ">
+        <div class="contenedor-piepagina contenedor">
+            <div class="info">
+                <h3>Dirección</h3>
+                <p>23.Roma Italia 75012</p>
+            </div>
+            <div class="info">
+                <h3>Días especiales</h3>
+                <p>Sabados y Jueves 7am - 11pm</p>
+                <p>+3123410921</p>
+            </div>
+            <div class="info">
+                <h3>Horarios</h3>
+                <p>Lunes - Domingo 7am - 11pm</p>
+                <div class="redes-sociales redes-pie">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+            <div class="info">
+                <h3>Noticias</h3>
+                <p>suscribete para recibir más noticias</p>
+                <input type="email" placeholder="Tu correo">
+                <input type="submit" class="btn btn-verde" value="Suscribirse">
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>Todos los derechos reservados &copy; 2024 Risotrante Daniele, desarrollado por Daniel</p>
+    </footer>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>

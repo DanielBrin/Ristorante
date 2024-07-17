@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ristorante Danny</title>
+    <link rel="icon" href="OIP.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/283335a286.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&family=Mulish:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header class="encabezado">
+        <div class="contenedor-navegacion">
+            <div class="contenido-navegacion contenedor">
+                <div class="logo">
+                    <h2>Ristorante <span class="verde">Da</span><span>ni</span><span class="rojo">ele</span></h2>
+                </div>
+                <nav class="navegacion ocultar">
+                    <a href="index.html">Inicio</a>
+                    <a href="menu.html">Menú</a>
+                    <a href="chef.html">Chef</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+                <div class="hamburguesa">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+        <div class="contenido-header">
+            <div class="contenedor-encabezado">
+                <div class="texto-encabezado">
+                    <h2>El verdadero sabor<h2>
+                            italiano en cada bocado</h2>
+                        <a href="Previa.html" class="btn bordes">Previas</a>
+                </div>
+                <video autoplay loop muted>
+                    <source src="/assets/bg_video.mp4">
+                </video>
+            </div>
+        </div>
+    </header>
+
+    <section class="menu contenedor">
+        <h2 class="texto-platillos">Platillos populares</h2>
+        <div class="botones-platillos">
+            <button class="todos btn btn-verde">Todos</button>
+            <button class="ensaladas btn btn-verde">Ensaladas</button>
+            <button class="pasta btn btn-verde">Pasta</button>
+            <button class="pizza btn btn-verde">Pizza</button>
+            <button class="postres btn btn-verde">Postres</button>
+        </div>
+        <div class="platillos">
+            <div class="platillo" data-platillo="ensalada">
+                <img data-src="assets/img/ensalada.jpg" alt="ensalada">
+                <h2>Insalata Caprese</h2>
+                <p>ensalada tradicional italiana originaria de la región de Campania.</p>
+                <div class="precio">
+                    <p>$16.06</p>
+                    <button class="add-to-cart"><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="ensalada">
+                <img data-src="assets/img/ensalada2.jpg" alt="ensalada">
+                <h2>Insalata di Rucola e Parmigiano</h2>
+                <p>Es una combinación deliciosa de sabores intensos y amargos que complementan muy bien cualquier
+                    comida.</p>
+                <div class="precio">
+                    <p>$13.92</p>
+                    <button class="add-to-cart"><i class="fas fa-shopping-basket"></i></button>                </div>
+            </div>
+            <div class="platillo" data-platillo="ensalada">
+                <img data-src="assets/img/ensalada3.jpg" alt="ensalada">
+                <h2>Insalata di Mare</h2>
+                <p>Esta ensalada de mariscos es muy popular en las regiones costeras de Italia.</p>
+                <div class="precio">
+                    <p>$21.41</p>
+                    <button class="add-to-cart"><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pasta">
+                <img data-src="assets/img/pasta1.jpg" alt="pasta">
+                <h2>Tagliatelle paglia</h2>
+                <p> Deliciosa salsa de nata y jamón, puede ser un gran plato único o un buen segundo acompañado de una
+                    ensalada o una sopa de primero.</p>
+                <div class="precio">
+                    <p>$12.80</p>
+                    <button class="add-to-cart"><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pasta">
+                <img data-src="assets/img/pasta2.jpg" alt="pasta">
+                <h2>Pasta con mantequilla tostada y parmesano</h2>
+                <p>Menos es más, ya lo decía Coco Chanel, y en la cocina en muchas ocasiones esta norma está más que
+                    presente y un aroma intenso a frutos secos.</p>
+                <div class="precio">
+                    <p>$11.40</p>
+                    <button class="add-to-cart"><i class="fas fa-shopping-basket"></i></button>                </div>
+            </div>
+            <div class="platillo" data-platillo="pasta">
+                <img data-src="assets/img/pasta3.jpg" alt="pasta">
+                <h2>Pasta con salsa boloñesa</h2>
+                <p>A base de carne y verduras y típica de la ciudad de Bolonia en Italia, es una de las más conocidas en
+                    el mundo. La clave real de su éxito es que tiene un sofrito que los expertos llaman battuto.</p>
+                <div class="precio">
+                    <p>$13.40</p>
+                    <button class="add-to-cart"><i class="fas fa-shopping-basket"></i></button>                </div>
+            </div>
+            <div class="platillo" data-platillo="pizza">
+                <img data-src="assets/img/pizza1.jpg" alt="pizza">
+                <h2>Tomate y rúcula</h2>
+                <p>Es un plato ligero que se prepara con rúcula y diferentes tipos de tomates cherry. Una receta light
+                    para llevar mejor el agobiante calor del verano.</p>
+                <div class="precio">
+                    <p>$10.00</p>
+                    <button class="add-to-cart"><i class="fas fa-shopping-basket"></i></button>                </div>
+            </div>
+            <div class="platillo" data-platillo="pizza">
+                <img data-src="assets/img/pizza2.jpg" alt="pizza">
+                <h2>Daviola</h2>
+                <p>Es una de las pizzas más conocidas en el extranjero, especialmente en Estados U donde se llama
+                    Pepperoni Pi ya que el salami picante se lle Pepperoni.</p>
+                <div class="precio">
+                    <p>$8.99</p>
+                    <button class="add-to-cart"><i class="fas fa-shopping-basket"></i></button>                </div>
+            </div>
+            <div class="platillo" data-platillo="pizza">
+                <img data-src="assets/img/pizza3.jpg" alt="pizza">
+                <h2>Carbonara</h2>
+                <p>Los romanos fueron los primeros en preparar la deliciosa receta de pasta a la Carbonara y no nos
+                    extraña que fueran también ellos quienes volcaran los mismos ingredientes sobre una masa de pizza.
+                </p>
+                <div class="precio">
+                    <p>$10.00</p>
+                    <button class="add-to-cart"><i class="fas fa-shopping-basket"></i></button>                </div>
+            </div>
+            <div class="platillo" data-platillo="postre">
+                <img data-src="assets/img/postres1.jpg" alt="postre">
+                <h2>Mousse de Café</h2>
+                <p>Este delicioso postre, con una base rica y aromática de café, es perfecto para los amantes del buen
+                    sabor.
+                </p>
+                <div class="precio">
+                    <p>$4.75</p>
+                    <button class="add-to-cart"><i class="fas fa-shopping-basket"></i></button>                </div>
+            </div>
+            <div class="platillo" data-platillo="postre">
+                <img data-src="assets/img/postres2.jpg" alt="postre">
+                <h2>Pudding de chocolate</h2>
+                <p>para aquellos que cada vez consuman menos productos de procedencia animal, el tofu es una buena
+                    fuente de proteínas. además de ser un ingrediente muy versátil.
+                </p>
+                <div class="precio">
+                    <p>$7.50</p>
+                    <button class="add-to-cart"><i class="fas fa-shopping-basket"></i></button>                </div>
+            </div>
+            <div class="platillo" data-platillo="postre">
+                <img data-src="assets/img/postres3.jpg" alt="postre">
+                <h2>Mini Cake de Frutas</h2>
+                <p>Este pequeño pero delicioso pastel está lleno de una variedad de frutas frescas que aportan un toque
+                    dulce y jugoso en cada bocado.
+                </p>
+                <div class="precio">
+                    <p>$6.50</p>
+                    <button class="add-to-cart"><i class="fas fa-shopping-basket"></i></button>                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- seccion de prueba-->
+<section class="carrito contenedor">
+    <h2 class="texto-platillos">Carrito de Compras</h2>
+    <div class="carrito-items">
+        <!-- Los items del carrito se agregarán aquí -->
+    </div>
+    <div class="total">
+        <h3>Total: $<span id="total">0.00</span></h3>
+        <button class="btn btn-verde" id="pagar">Pagar</button>
+    </div>
+</section>
+
+<!-- modo de pago prueba -->
+<div id="payment-modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Selecciona tu método de pago</h2>
+        <form id="payment-form">
+            <label>
+                <input type="radio" name="payment-method" value="visa"> Visa
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="payment-method" value="mastercard"> MasterCard
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="payment-method" value="amex"> American Express
+            </label>
+            <br>
+            <label for="card-number">Número de tarjeta:</label>
+            <input type="text" id="card-number" name="card-number" required>
+            <br>
+            <label for="card-expiry">Fecha de expiración:</label>
+            <input type="text" id="card-expiry" name="card-expiry" placeholder="MM/AA" required>
+            <br>
+            <label for="card-cvc">CVC:</label>
+            <input type="text" id="card-cvc" name="card-cvc" required>
+            <br>
+            <button type="submit" class="btn btn-verde">Confirmar Pago</button>
+        </form>
+    </div>
+</div>
+    <br>
+<hr>
+    <div class="formulario-contacto contenedor">
+
+        <div class="informacion-contacto">
+            <h3>Contactanos</h3>
+            <p><i class="fas fa-map-marker-alt"></i>24. Sol del tecal 507py</p>
+            <p><i class="fas fa-envelope"></i> dany29brin@gmail.com</p>
+            <p><i class="fas fa-phone-alt"></i>+507 6168-xxxx</p>
+            <div class="redes-sociales">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+
+        <form class="formulario">
+            <div class="input-formulario">
+                <label for="nombre">Nombre</label>
+                <input type="text" placeholder="Pedro" id="nombre">
+            </div>
+            <div class="input-formulario">
+                <label for="apellidos">Apellido</label>
+                <input type="text" placeholder="Pedro" id="apellidos">
+            </div>
+            <div class="input-formulario">
+                <label for="correo">Correo</label>
+                <input type="email" placeholder="ejemplo@ejemplo.com" id="correo">
+            </div>
+            <div class="input-formulario">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" placeholder="+90 543 779 9410" id="telefono">
+            </div>
+            <div class="input-formulario">
+                <label for="mensaje">Mensaje</label>
+                <textarea></textarea>
+            </div>
+            <div class="btn-formulario">
+                <input type="submit" class="btn btn-verde" value="Enviar">
+            </div>
+
+        </form>
+    </div>
+    <div class="pie-pagina ">
+        <div class="contenedor-piepagina contenedor">
+            <div class="info">
+                <h3>Dirección</h3>
+                <p>23.Roma Italia 75012</p>
+            </div>
+            <div class="info">
+                <h3>Días especiales</h3>
+                <p>Sabados y Jueves 7am - 11pm</p>
+                <p>+3123410921</p>
+            </div>
+            <div class="info">
+                <h3>Horarios</h3>
+                <p>Lunes - Domingo 7am - 11pm</p>
+                <div class="redes-sociales redes-pie">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+            <div class="info">
+                <h3>Noticias</h3>
+                <p>suscribete para recibir más noticias</p>
+                <input type="email" placeholder="Tu correo">
+                <input type="submit" class="btn btn-verde" value="Suscribirse">
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>Todos los derechos reservados &copy; 2024 Risotrante Daniele, desarrollado por Daniel</p>
+    </footer>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
